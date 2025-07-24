@@ -1,0 +1,53 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="androidGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#A4C639;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7CB342;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="toolGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F57C00;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#2E7D32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1B5E20;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- 背景圆角矩形 -->
+  <rect x="16" y="16" width="224" height="224" rx="32" ry="32" fill="url(#bgGrad)"/>
+  
+  <!-- 安卓机器人头部 -->
+  <ellipse cx="128" cy="100" rx="50" ry="45" fill="url(#androidGreen)"/>
+  
+  <!-- 安卓机器人触角 -->
+  <line x1="105" y1="70" x2="95" y2="50" stroke="url(#androidGreen)" stroke-width="6" stroke-linecap="round"/>
+  <line x1="151" y1="70" x2="161" y2="50" stroke="url(#androidGreen)" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- 安卓机器人眼睛 -->
+  <circle cx="115" cy="90" r="4" fill="white"/>
+  <circle cx="141" cy="90" r="4" fill="white"/>
+  
+  <!-- 安卓机器人身体 -->
+  <rect x="88" y="130" width="80" height="70" rx="15" ry="15" fill="url(#androidGreen)"/>
+  
+  <!-- 安卓机器人手臂 -->
+  <rect x="65" y="140" width="15" height="45" rx="7" ry="7" fill="url(#androidGreen)"/>
+  <rect x="176" y="140" width="15" height="45" rx="7" ry="7" fill="url(#androidGreen)"/>
+  
+  <!-- 安卓机器人腿部 -->
+  <rect x="105" y="205" width="15" height="30" rx="7" ry="7" fill="url(#androidGreen)"/>
+  <rect x="136" y="205" width="15" height="30" rx="7" ry="7" fill="url(#androidGreen)"/>
+  
+  <!-- 工具图标 -->
+  <circle cx="200" cy="80" r="20" fill="url(#toolGrad)" opacity="0.9"/>
+  <path d="M 192 76 L 208 76 M 192 80 L 208 80 M 192 84 L 208 84" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="196" cy="88" r="2" fill="white"/>
+  <circle cx="204" cy="88" r="2" fill="white"/>
+  
+  <!-- 闪电效果 -->
+  <path d="M 140 160 L 150 160 L 142 175 L 148 175 L 132 195 L 138 180 L 132 180 L 140 160 Z" fill="url(#toolGrad)" opacity="0.8"/>
+  
+  <!-- 底部标识 -->
+  <text x="128" y="220" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold" opacity="0.8">WinDroid</text>
+</svg>
