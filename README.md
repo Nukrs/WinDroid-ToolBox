@@ -7,6 +7,12 @@
 ### 🔧 刷机工具
 - **Fastboot刷机**: 支持刷入系统镜像、Recovery、Bootloader等
 - **ADB工具**: Android调试桥，用于设备调试和文件传输
+  <img width="1184" height="790" alt="image" src="https://github.com/user-attachments/assets/2a0ffd69-d11b-4643-be82-e55f9a887add" />
+  <img width="1184" height="761" alt="image" src="https://github.com/user-attachments/assets/29327aff-dce1-4323-a337-54ca0598d1ef" />
+  <img width="1184" height="761" alt="image" src="https://github.com/user-attachments/assets/b67246ed-ebc8-493f-b384-0adf2b013c28" />
+
+
+
 
 ### 📱 设备管理
 - 自动检测连接的Android设备
@@ -53,7 +59,7 @@ cd WinDroid-ToolBox
 
 ### 预编译版本
 
-从[Releases页面](https://github.com/your-username/windroid-toolbox/releases)下载安装包。
+从[Releases页面](https://github.com/Nukrs/WinDroid-ToolBox/releases)下载安装包。
 
 ## 配置说明
 
